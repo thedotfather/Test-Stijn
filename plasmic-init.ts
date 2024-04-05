@@ -1,4 +1,5 @@
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
+import { BasicTable } from "./components/BasicTable";
 
 export const PLASMIC = initPlasmicLoader({
   projects: [
@@ -23,3 +24,7 @@ export const PLASMIC = initPlasmicLoader({
 // https://docs.plasmic.app/learn/app-hosting/#set-a-plasmic-project-to-use-your-app-host
 
 // PLASMIC.registerComponent(...);
+
+PLASMIC.registerComponent(BasicTable, {
+  name: 'BasicTable'
+});
