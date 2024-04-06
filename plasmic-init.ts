@@ -1,5 +1,5 @@
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
-import  BasicTable  from "./components/BasicTable";
+import { BasicTable } from "./components/BasicTable";
 
 export const PLASMIC = initPlasmicLoader({
   projects: [
@@ -27,5 +27,7 @@ export const PLASMIC = initPlasmicLoader({
 
 PLASMIC.registerComponent(BasicTable, {
   name: 'STIJN-BasicTable',
-  props: {}
+  props: {
+    
+  }
 });
