@@ -1,6 +1,7 @@
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
 import { BasicTable } from "./components/BasicTable";
 import { StickyHeadTable } from "./components/MUI-TableWithStickyHeader";
+import { PaperContainer } from "./components/MUI-Paper";
 
 export const PLASMIC = initPlasmicLoader({
   projects: [
@@ -37,5 +38,12 @@ PLASMIC.registerComponent(StickyHeadTable, {
   name: 'STIJN-TableWithStickyHeader',
   props: {
     
+  }
+});
+
+PLASMIC.registerComponent(PaperContainer, {
+  name: 'STIJN-PaperContainter',
+  props: {
+    elevation: 'number'
   }
 });
