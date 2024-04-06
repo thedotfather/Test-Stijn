@@ -1,5 +1,5 @@
 import { initPlasmicLoader } from "@plasmicapp/loader-nextjs";
-import { BasicTable } from "./components/BasicTable";
+import  BasicTable  from "./components/BasicTable";
 
 export const PLASMIC = initPlasmicLoader({
   projects: [
