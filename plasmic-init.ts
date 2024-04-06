@@ -31,3 +31,10 @@ PLASMIC.registerComponent(BasicTable, {
     
   }
 });
+
+PLASMIC.registerComponent(BasicTable, {
+  name: 'STIJN-TableWithStickyHeader',
+  props: {
+    
+  }
+});
