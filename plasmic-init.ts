@@ -26,5 +26,6 @@ export const PLASMIC = initPlasmicLoader({
 // PLASMIC.registerComponent(...);
 
 PLASMIC.registerComponent(BasicTable, {
-  name: 'BasicTable'
+  name: 'STIJN-BasicTable',
+  props: {}
 });
